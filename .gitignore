@@ -1,2 +1,2 @@
-
-less/*.less
+less/
+.DS_Store
