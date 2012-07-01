@@ -15,6 +15,11 @@ body {
 	font-family: Lobster, "Helvetica Neue", Arial, sans-serif;
 }
 
+.navbar [class^="icon-"], 
+.navbar [class*=" icon-"] {
+  vertical-align:text-bottom;
+}
+
 
 /* Master Header */
 
