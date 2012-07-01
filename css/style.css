@@ -1,0 +1,234 @@
+body {
+	padding-top:60px;
+	background: url(../img/bg.png);
+}
+
+.brand {
+	font-family: Lobster;
+}
+
+#masterhead {
+	background:#33607E url(../img/mastheadbg.png);
+	border-bottom: 1px solid white;
+}
+
+#masterhead .container {
+	padding:50px 0 0 0;
+	background:#33607E url(../img/masthead.png) center center no-repeat;
+}
+
+h2.planTitle {
+	font-family: Lobster;
+	font-size: 24px;
+	color:white;
+	text-shadow:0 1px 2px rgba(34,64,84,0.8);
+}
+
+#masterhead table {
+	-webkit-box-shadow: 0px 0px 20px 10px rgba(34, 64, 84, 0.5);
+	box-shadow: 0px 0px 20px 10px rgba(34, 64, 84, 0.5);
+}
+
+
+#masterhead thead {
+	background:#F7D53D;
+	font-size: 20px;
+	line-height: 36px;
+	font-family: Lobster;
+	text-shadow:0 1px 2px rgba(255,255,255,0.8);
+}
+
+
+
+/*#plan2 thead, #plan3 thead {
+	background: #F5EEB0;
+}*/
+
+#masterhead {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+
+#plansCaption {
+	color: white;
+	text-align: center;
+
+}
+
+#plansCaptionBlack {
+	background: black;
+}
+
+#plansCaption h2 {
+	font-weight: 300;
+}
+
+h2.jumboCaption {
+	font-size: 36px;
+	padding: 25px 0;
+	font-family: Lobster;
+	text-shadow:0 1px 2px rgba(34,64,84,0.9);
+	border-bottom: 1px solid #224054;
+}
+
+
+#masterhead tfoot td {
+	height: 48px;
+}
+
+#masterhead tfoot p {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#masterhead tfoot small {
+	vertical-align: super;
+	font-size: 10px;
+	line-height: 10px
+}
+
+#masterhead .btn {
+	font-weight: bold;
+}
+
+
+
+
+
+[class^="icon-"], 
+[class*=" icon-"] {
+  
+  vertical-align:baseline;
+
+}
+
+
+#reg {
+	margin-bottom: 0;
+}
+
+
+
+
+#quoteCarousel {
+	text-align: center;
+}
+
+
+
+
+footer {
+	background: #555;
+	border-top: 1px solid white;
+	padding: 15px 0;
+	font-size: 13px;
+}
+
+footer a {
+	color: #ccc;
+}
+
+footer a:hover {
+	color: #F7D53D;
+}
+
+footer p {
+	color:white;
+}
+
+
+
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+
+
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+
+	#masterhead {
+		background: transparent;
+		border-bottom: none;
+	}
+
+	#masterhead .container {
+		background: transparent;
+		padding-top: 0;
+	}
+
+	#masterhead table {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	h2.jumboCaption {
+		padding: 0 0 6px 0;
+		text-shadow:0 1px 2px rgba(255,255,255,0.8);
+		border-bottom: none;
+		text-align: center;
+	}
+
+	.plan {
+		margin-top: 36px;
+	}
+
+	.plan h2 {
+		color: #33607E;
+		text-shadow:0 1px 2px rgba(255,255,255,0.8);
+
+	}
+
+	#plan3 {
+		margin-bottom: 18px;
+	}
+
+	blockquote {
+		border-left: none;
+	}
+
+	footer {
+		padding: 20px;
+		border-top: none;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	footer .span4 {
+		padding-bottom: 18px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+		#mainContent h3 {
+			font-size: 15px;
+			line-height: 24px;
+			padding-bottom: 6px;
+		}
+}
+ 
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+
+
+
+
+
+
+
