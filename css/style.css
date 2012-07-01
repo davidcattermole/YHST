@@ -3,13 +3,26 @@ body {
 	background: url(../img/bg.png);
 }
 
-.brand {
-	font-family: Lobster;
+[class^="icon-"], 
+[class*=" icon-"] {
+  vertical-align:baseline;
 }
+
+
+/* Navbar */
+
+.brand {
+	font-family: Lobster, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/* Master Header */
 
 #masterhead {
 	background:#33607E url(../img/mastheadbg.png);
 	border-bottom: 1px solid white;
+	text-align: center;
+	margin-bottom: 25px;
 }
 
 #masterhead .container {
@@ -18,7 +31,7 @@ body {
 }
 
 h2.planTitle {
-	font-family: Lobster;
+	font-family: Lobster, "Helvetica Neue", Arial, sans-serif;
 	font-size: 24px;
 	color:white;
 	text-shadow:0 1px 2px rgba(34,64,84,0.8);
@@ -30,48 +43,23 @@ h2.planTitle {
 }
 
 
-#masterhead thead {
-	background:#F7D53D;
-	font-size: 20px;
-	line-height: 36px;
-	font-family: Lobster;
-	text-shadow:0 1px 2px rgba(255,255,255,0.8);
-}
-
-
-
-/*#plan2 thead, #plan3 thead {
-	background: #F5EEB0;
-}*/
-
-#masterhead {
-	text-align: center;
-	margin-bottom: 25px;
-}
-
-
 #plansCaption {
 	color: white;
 	text-align: center;
-
 }
 
 #plansCaptionBlack {
 	background: black;
-}
-
-#plansCaption h2 {
 	font-weight: 300;
 }
 
 h2.jumboCaption {
 	font-size: 36px;
 	padding: 25px 0;
-	font-family: Lobster;
+	font-family: Lobster, "Helvetica Neue", Arial, sans-serif;
 	text-shadow:0 1px 2px rgba(34,64,84,0.9);
 	border-bottom: 1px solid #224054;
 }
-
 
 #masterhead tfoot td {
 	height: 48px;
@@ -96,30 +84,21 @@ h2.jumboCaption {
 }
 
 
-
-
-
-[class^="icon-"], 
-[class*=" icon-"] {
-  
-  vertical-align:baseline;
-
-}
-
+/* Sign up form*/
 
 #reg {
 	margin-bottom: 0;
 }
 
 
-
+/* Testimonials*/
 
 #quoteCarousel {
 	text-align: center;
 }
 
 
-
+/* Footer */
 
 footer {
 	background: #555;
@@ -142,21 +121,13 @@ footer p {
 
 
 
-
-
-
+/* Responsive */
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
-
-
-
-
-}
+@media (max-width: 480px) {}
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
 
 	#masterhead {
 		background: transparent;
@@ -187,7 +158,6 @@ footer p {
 	.plan h2 {
 		color: #33607E;
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
-
 	}
 
 	#plan3 {
@@ -214,7 +184,6 @@ footer p {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
-
 		#mainContent h3 {
 			font-size: 15px;
 			line-height: 24px;
@@ -223,7 +192,7 @@ footer p {
 }
  
 /* Large desktop */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {}
 
 
 
