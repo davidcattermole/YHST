@@ -91,7 +91,7 @@ h2.jumboCaption {
 
 /* Sign up form*/
 
-#reg {
+#reg, #controlLogin {
 	margin-bottom: 0;
 }
 
@@ -124,6 +124,11 @@ footer p {
 	color:white;
 }
 
+
+/* Login*/
+body.login {
+	background:#33607E url(../img/mastheadbg.png);
+}
 
 
 /* Responsive */
@@ -189,7 +194,7 @@ footer p {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
-		#mainContent h3 {
+		.snippets h3 {
 			font-size: 15px;
 			line-height: 24px;
 			padding-bottom: 6px;
