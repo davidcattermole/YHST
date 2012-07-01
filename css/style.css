@@ -102,6 +102,10 @@ h2.jumboCaption {
 	text-align: center;
 }
 
+#quoteCarousel blockquote {
+	border-left: none;
+}
+
 
 /* Footer */
 
@@ -174,9 +178,6 @@ body.login {
 		margin-bottom: 18px;
 	}
 
-	blockquote {
-		border-left: none;
-	}
 
 	footer {
 		padding: 20px;
