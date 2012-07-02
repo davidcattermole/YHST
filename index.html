@@ -76,7 +76,7 @@
 
         <div class="row"> 
 
-          <div id="plan1" class="span4 plan">
+          <div id="plan1" class="span4 plan muted">
             
             <!-- Title for first hosting plan -->
             <h2 class="planTitle">FREE Hosting</h2>
@@ -85,65 +85,40 @@
             Remember to keep a space between the </i> and the text.  -->
             <table class="table table-bordered">
               <tbody>
-                <tr>
-                  <td><i class="icon-ok"></i> 2GB Disk Space</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 10GB Monthly Transfer</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 1 MySQL Database</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> FREE For Life</td>
-                </tr>
+                <tr><td><i class="icon-ok"></i> 2GB Disk Space</td></tr>
+                <tr><td><i class="icon-ok"></i> 10GB Monthly Transfer</td></tr>
+                <tr><td><i class="icon-ok"></i> 1 MySQL Database</td></tr>
+                <tr><td><i class="icon-ok"></i> FREE For Life</td></tr>
               </tbody>
               <tfoot>
-                <tr>
-                  <td>
-                    <p>
-                      <!-- Set the price -->
-                      FREE
-                    </p>  
-                  </td>
-                </tr>
+                <tr><td><p>FREE</p></td></tr>
               </tfoot>
             </table>
+            
             <a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up Now &raquo;</a>
+
           </div>
 
 
           
           <div id="plan2" class="span4 plan">
 
-            <!-- Title for second hosting plan -->
-            <h2 class="planTitle">Pro Hosting</h2>
+            <!-- Title for second hosting plan. Remove the span if necessary-->
+            <h2 class="planTitle">Pro Hosting <span class="label label-important">Great Value</span></h2>
 
             <table class="table table-bordered">
               <tbody>
-                <tr>
-                  <td><i class="icon-ok"></i> 5GB Disk Space</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 50GB Monthly Transfer</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 2 MySQL Databases</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> Online Support</td>
-                </tr>
+                <tr><td><i class="icon-ok"></i> 5GB Disk Space</td></tr>
+                <tr><td><i class="icon-ok"></i> 50GB Monthly Transfer</td></tr>
+                <tr><td><i class="icon-ok"></i> 2 MySQL Databases</td></tr>
+                <tr><td><i class="icon-ok"></i> Online Support</td></tr>
               </tbody>
               <tfoot>
-                <tr>
-                  <td>
-                    <p>
-                      <!-- Set the price. Remove the <small> tags if you don't want them.
-                       Leave spaces between the price and the other text -->
-                      <small>Only</small> £2.99 <small>/month</small>
-                    </p>  
-                  </td>
-                </tr>
+
+                <!-- Set the price. Remove the <small> tags if you don't want them.
+                       Leave spaces between the price and the other text. Remove span if necessary -->
+
+                <tr><td><p><small><span class="oldPrice">£4.99</span> Only</small> £2.99 <small>/month</small></p></td></tr>
               </tfoot>
             </table>
             <a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up Now &raquo;</a>
@@ -151,36 +126,20 @@
 
           
 
-          <div id="plan3" class="span4 plan">
+          <div id="plan3" class="span4 plan muted">
 
             <!-- Title for third hosting plan -->
             <h2 class="planTitle">Premium Hosting</h2>
 
-
             <table class="table table-bordered">
               <tbody>
-                <tr>
-                  <td><i class="icon-ok"></i> 10GB Disk Space</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 100GB Monthly Transfer</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 3 MySQL Databases</td>
-                </tr>
-                <tr>
-                  <td><i class="icon-ok"></i> 24 Hour Support</td>
-                </tr>
+                <tr><td><i class="icon-ok"></i> 10GB Disk Space</td></tr>
+                <tr><td><i class="icon-ok"></i> 100GB Monthly Transfer</td></tr>
+                <tr><td><i class="icon-ok"></i> 3 MySQL Databases</td></tr>
+                <tr><td><i class="icon-ok"></i> 24 Hour Support</td></tr>
               </tbody>
               <tfoot>
-                <tr>
-                  <td>
-                    <p>
-                      <!-- Set the price -->
-                      <small>Only</small> £7.99 <small>/month</small>
-                    </p>  
-                  </td>
-                </tr>
+                <tr><td><p><small>Only</small> £7.99 <small>/month</small></p></td></tr>
               </tfoot>
             </table>
             <a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up Now &raquo;</a>
@@ -188,7 +147,8 @@
 
 
         </div>
-      </div>
+      </div> <!-- End plan row -->
+
 
       <!-- Caption for desktop and tablet users -->
       <div id="plansCaption" class="hidden-phone">
@@ -292,8 +252,6 @@
     <hr class="visible-phone">
 
 
-
-
     <div id="mainContent" class="container">
       
       <!-- Snippets highlighting the main features of your company -->
@@ -392,7 +350,7 @@
       the footer dancing about -->
       <div class="row">
 
-        <div class="span10 offset1">
+        <div class="span12 center-block">
           <div id="quoteCarousel" class="carousel slide">
             <div class="carousel-inner">
               
