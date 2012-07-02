@@ -152,30 +152,36 @@ body.login {
 
 
 /* Features*/
-#features td, #features th {
+body.features #masterhead table td, body.features #masterhead table th {
 	text-align: center;
 }
 
-#features td:first-child, #features th:first-child {
+body.features #masterhead table td:first-child, body.features #masterhead table th:first-child {
 	text-align: left;
 }
 
-#features th {
+body.features #masterhead table th {
 	font-family: Lobster, "Helvetica Neue", Arial, sans-serif;
 	font-size: 20px;
 	text-shadow:0 1px 2px rgba(255,255,255,1);
 }
 
-#features .label, .plan h2 .label {
+body.features #masterhead table .label, .plan h2 .label {
 	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
 	vertical-align: text-top;
 }
+
+
 /* Responsive */
 
 /* Landscape phones and down */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+	#masterhead tfoot p {
+	font-size: 18px;
+	line-height: 24px;
+	}
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
