@@ -91,7 +91,7 @@ h2.jumboCaption {
 
 /* Sign up form*/
 
-#reg, #controlLogin {
+.modal form {
 	margin-bottom: 0;
 }
 
@@ -132,6 +132,10 @@ footer p {
 /* Login*/
 body.login {
 	background:#33607E url(../img/mastheadbg.png);
+}
+
+#loginTabs {
+	background:#f5f5f5;
 }
 
 
