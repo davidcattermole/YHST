@@ -182,6 +182,9 @@ body.features #masterhead table .label, .plan h2 .label {
 	font-size: 18px;
 	line-height: 24px;
 	}
+	
+
+
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
@@ -217,9 +220,7 @@ body.features #masterhead table .label, .plan h2 .label {
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
 	}
 
-	#plan3 {
-		margin-bottom: 18px;
-	}
+	
 
 
 	footer {
