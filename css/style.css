@@ -32,7 +32,7 @@ body {
 
 #masterhead .container {
 	padding:50px 0 0 0;
-	background:#33607E url(../img/masthead.png) center center no-repeat;
+	background:url(../img/masthead.png) center center no-repeat;
 }
 
 h2.planTitle {
@@ -191,11 +191,17 @@ body.about #mainContent {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	#masterhead tfoot p {
-	font-size: 18px;
-	line-height: 24px;
+	body.features #masterhead tfoot p {
+		font-size: 18px;
+		line-height: 24px;
 	}
-	
+
+	#webmailButton {
+		float: left;
+		margin: 0 15px 15px;
+	}
+
+}	
 
 
  
@@ -220,7 +226,6 @@ body.about #mainContent {
 	h2.jumboCaption {
 		padding: 0 0 6px 0;
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
-		border-bottom: none;
 		text-align: center;
 	}
 
@@ -233,7 +238,7 @@ body.about #mainContent {
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
 	}
 
-	
+
 
 
 	footer {
@@ -247,6 +252,8 @@ body.about #mainContent {
 	footer .span4 {
 		padding-bottom: 18px;
 	}
+
+
 }
  
 /* Portrait tablet to landscape and desktop */
@@ -256,6 +263,11 @@ body.about #mainContent {
 			font-size: 15px;
 			line-height: 24px;
 			padding-bottom: 6px;
+		}
+
+		body.about #masterhead .container, 
+		body.contact #masterhead .container {
+			background-image: none;
 		}
 }
  
