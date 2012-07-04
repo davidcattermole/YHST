@@ -27,5 +27,4 @@ $secondaryTagline	= ""; // leave blank to ignore
 
 
 
-// //Special offers
-// $plan1
+// Special offers
