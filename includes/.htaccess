@@ -1,0 +1,3 @@
+# Stop all access to includes directory
+
+deny from all
