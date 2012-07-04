@@ -1,7 +1,7 @@
 <?php
 
 // About your site
-$siteUrl 			= "";
+$siteUrl 			= "localhost/Development/HTML%20Themes/YHST";
 $siteName 			= "DaveHost";
 $description		= "Omg free hosting";
 
