@@ -15,11 +15,11 @@
 
   <meta name="viewport" content="width=device-width">
 
-  <link rel="stylesheet" href="<?php echo $siteUrl ?>css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $siteUrl ?>css/responsive.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $siteUrl ?>css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <script src="<?php echo $siteUrl ?>js/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+  <script src="js/modernizr-2.5.3-respond-1.1.0.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body <?php if ($thisPage != "Home") echo "class=\"" . strtolower($thisPage) . "\"" ?>>
