@@ -10,7 +10,7 @@
 
           <!-- Control Panel button always visible -->
           
-          <a class="pull-right btn btn-small btn-inverse" href="<?php echo "cpanel." . $siteUrl ?>"><i class="icon-cog icon-white"></i> Control Panel</a>
+          <a class="pull-right btn btn-small btn-inverse" href="<?php echo "cpanel." . $siteUrl ?>"><i class="icon-cog icon-white"></i> Control <span class="hidden-phone">Panel</span></a>
 
           <!-- Your website name. If you have a logo you could change this to an img. 
           Change the link to point to the root of your domain -->
@@ -20,11 +20,11 @@
 
             <ul class="nav">
               <!-- All the navigation items.  -->
-              <li><a href="features.html">Features</a></li>
-              <li><a href="about.html">About</a></li>
+              <li <?php if ($thisPage == "Features") echo "class=\"active\""; ?>><a href="features.php">Features</a></li>
+              <li <?php if ($thisPage == "About") echo "class=\"active\""; ?>><a href="about.php">About</a></li>
               <li><a href="blog/">Blog</a></li>
               <li><a href="forum/">Forum</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li <?php if ($thisPage == "Contact") echo "class=\"active\""; ?>><a href="contact.php">Contact</a></li>
             </ul>
 
             <a class="pull-right btn btn-small btn-info" href="<?php echo "webmail." . $siteUrl ?>"><i class="icon-envelope icon-white"></i> Webmail</a>

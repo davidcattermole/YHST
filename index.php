@@ -1,5 +1,7 @@
-<?php include('header.php'); ?>
-<?php include('nav.php'); ?>
+<?php $thisPage = "Home" ?>
+
+<?php include('includes/header.php'); ?>
+<?php include('includes/nav.php'); ?>
 
 
     <div id="masterhead">
@@ -16,11 +18,8 @@
 
           <div id="plan1" class="span4 plan muted">
             
-            <!-- Title for first hosting plan -->
             <h2 class="planTitle">FREE Hosting</h2>
             
-            <!-- Using tables because one could argue that this IS tabular data. Change to whatever you are offering.
-            Remember to keep a space between the </i> and the text.  -->
             <table class="table table-bordered">
               <tbody>
                 <tr><td><i class="icon-ok"></i> 2GB Disk Space</td></tr>
@@ -41,7 +40,6 @@
           
           <div id="plan2" class="span4 plan">
 
-            <!-- Title for second hosting plan. Remove the span if necessary-->
             <h2 class="planTitle">Pro Hosting <span class="label label-important">Great Value</span></h2>
 
             <table class="table table-bordered">
@@ -52,21 +50,15 @@
                 <tr><td><i class="icon-ok"></i> Online Support</td></tr>
               </tbody>
               <tfoot>
-
-                <!-- Set the price. Remove the <small> tags if you don't want them.
-                       Leave spaces between the price and the other text. Remove span if necessary -->
-
                 <tr><td><p><small><span class="oldPrice visible-desktop">£4.99</span> Only</small> £2.99 <small>/month</small></p></td></tr>
               </tfoot>
             </table>
             <a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up Now &raquo;</a>
           </div>
-
           
 
           <div id="plan3" class="span4 plan muted">
 
-            <!-- Title for third hosting plan -->
             <h2 class="planTitle">Premium Hosting</h2>
 
             <table class="table table-bordered">
@@ -85,15 +77,13 @@
 
 
         </div>
-      </div> <!-- End plan row -->
+      </div>
 
 
       <!-- Caption for desktop and tablet users -->
       <div id="plansCaption" class="hidden-phone">
 
           <h2 class="jumboCaption"><?php echo $tagline ?></h2>
-
-          <!-- Uncomment the div below for a secondary tag line -->
      
           <?php if(!empty($secondaryTagline)) { ?>
           	
@@ -105,14 +95,16 @@
           
       </div>
 
-    </div><!-- End Master header -->
+    </div>
+
+
 
     <hr class="visible-phone">
 
 
+
     <div id="mainContent" class="container">
       
-      <!-- Snippets highlighting the main features of your company -->
       <div class="row snippets">
 
         <div class="span3">
@@ -120,12 +112,10 @@
           <p>With our fantastic website builder, you can start making your site without any technical knowledge.</p>
         </div>
 
-
         <div class="span3">
           <h3><i class="icon-heart"></i> Community Forums</h3>
           <p>Get extra support and talk to other like-minded webmasters on our friendly forum.</p>
-       </div>
-
+       	</div>
 
         <div class="span3">
           <h3><i class="icon-star"></i> Script Auto-Installer</h3>
@@ -139,7 +129,6 @@
 
       </div>
 
-      <!-- Second row of snippets -->
 
       <div class="row snippets">
 
@@ -243,5 +232,6 @@
 
     </div>
 
-<?php include('footer.php'); ?>
-<?php include('foot.php'); ?>
+<?php include('includes/signup.php'); ?>
+<?php include('includes/footer.php'); ?>
+<?php include('includes/foot.php'); ?>

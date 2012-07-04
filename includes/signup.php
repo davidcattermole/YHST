@@ -1,4 +1,11 @@
- <form id="reg" name="reg" enctype="application/x-www-form-urlencoded" action="http://api.main-hosting.com/v-2/client-register" method="post" class="form-horizontal">
+<div class="modal hide" id="signUp" tabindex="-1" role="dialog" aria-labelledby="signUpForm">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h3 id="signUpForm">Sign Up</h3>
+  </div>
+
+  
+  <form id="reg" name="reg" enctype="application/x-www-form-urlencoded" action="http://api.<?php echo $siteUrl ?>/v-2/client-register" method="post" class="form-horizontal">
 
       <div class="modal-body">
 
@@ -325,4 +332,7 @@
         <input role="button" type="submit" name="submit" id="submit" value="Sign Up" class="btn btn-warning">
       </div>
 
-      </form>
+    </form>
+
+    
+</div>  

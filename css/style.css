@@ -150,6 +150,11 @@ body.login {
 	background:#f5f5f5;
 }
 
+/* General page*/
+.jumboCaption.white {
+	color: #FFF;
+}
+
 
 /* Features*/
 body.features #masterhead table td, body.features #masterhead table th {
@@ -172,6 +177,14 @@ body.features #masterhead table .label, .plan h2 .label {
 	text-transform: uppercase;
 	vertical-align: text-top;
 }
+
+
+/* About*/
+body.about #mainContent {
+	margin-bottom: 24px;
+}
+
+
 
 
 /* Responsive */
