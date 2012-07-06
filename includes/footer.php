@@ -1,4 +1,4 @@
-    <footer>
+    <footer class="hidden-phone">
       <div class="container">
         <div class="row">
           

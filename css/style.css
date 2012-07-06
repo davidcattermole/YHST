@@ -155,6 +155,12 @@ body.login {
 	color: #FFF;
 }
 
+body.about #masterhead .container,
+body.contact #masterhead .container,
+body.features #masterhead .container {
+	background-position: top center;
+}
+
 
 /* Features*/
 body.features #masterhead table td, body.features #masterhead table th {
@@ -191,14 +197,92 @@ body.about #mainContent {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
+	body {
+		font-size: 13px;
+		line-height: 18px;
+		background:#33607E url(../img/mastheadbg.png);
+		color: #fff;
+	}
+
+	.well {
+		color: #333;
+	}
+
+	a {
+		color: #F7D53D;
+	}
+
 	body.features #masterhead tfoot p {
 		font-size: 18px;
 		line-height: 24px;
 	}
 
+	h2.jumboCaption {
+		text-shadow:0 1px 2px rgba(34,64,84,0.8) !important;
+	}
+
+	h2.planTitle {
+		text-shadow:0 1px 2px rgba(34,64,84,0.8) !important;
+		color: #fff !important;
+	}
+
 	#webmailButton {
 		float: left;
 		margin: 0 15px 15px;
+	}
+
+	.plan {
+		color: #000;
+	}
+
+
+
+	#plansCompare table thead th {
+		font-size: 13px !important;
+	}
+
+	#plansCompare tfoot a {
+		font-size: 10px;
+	}
+
+	#plansCompare td:first-child {
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	#plansCompare td {
+		vertical-align: middle;
+	}
+
+
+	#technicalFeatures td {
+		text-align: center;
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	#technicalFeatures i {
+		display: block !important;
+		margin: 0 auto;
+	}
+
+	.form-actions {
+		text-align: center;
+	}
+
+
+
+
+
+
+	.plan table td {
+		text-align: center;
+	}
+
+	.snippets [class^="icon-"], 
+	.snippets [class*=" icon-"] {
+  		background-image: url(../img/glyphicons-halflings-white.png);
 	}
 
 }	
@@ -227,16 +311,19 @@ body.about #mainContent {
 		padding: 0 0 6px 0;
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
 		text-align: center;
+		border-bottom: none;
 	}
 
 	.plan {
-		margin-top: 36px;
+		margin-top: 24px;
 	}
 
 	.plan h2 {
 		color: #33607E;
 		text-shadow:0 1px 2px rgba(255,255,255,0.8);
 	}
+
+
 
 
 

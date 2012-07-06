@@ -5,7 +5,7 @@
 
 
 <div id="masterhead">
-      <div class="container">
+    <div class="container">
         
         <div class="row"> 
 
@@ -15,9 +15,9 @@
               <thead>
                 <tr>
                   <th class="span3"></th>
-                  <th class="span3">FREE Hosting</th>
-                  <th class="span3">Pro Hosting <span class="label label-important visible-desktop">Great Value</span></th>
-                  <th class="span3">Premium Hosting</th>
+                  <th class="span3">FREE <span class="hidden-phone">Hosting</span></th>
+                  <th class="span3">Pro <span class="hidden-phone">Hosting </span><span class="label label-important visible-desktop">Great Value</span></th>
+                  <th class="span3">Premium <span class="hidden-phone">Hosting</span></th>
                 </tr>
 
               </thead>
@@ -102,16 +102,16 @@
                 <tr>
                   <td></td>
                   <td>
-                    <p>FREE</p>
-                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up &raquo;</a></p> 
+                    <p>FREE <small class="">Forever</small></p>
+                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up <span class="hidden-phone">&raquo;</span></a></p> 
                   </td>
                   <td>
                     <p><small class="visible-desktop">Only</small> £2.99 <small>/month</small></p>
-                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up &raquo;</a></p> 
+                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up <span class="hidden-phone">&raquo;</span></a></p> 
                   </td>
                   <td>
                     <p><small class="visible-desktop">Only</small> £7.99 <small>/month</small></p>
-                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up &raquo;</a></p> 
+                    <p><a href="#signUp" role="button" data-toggle="modal" class="btn btn-large btn-warning">Sign Up <span class="hidden-phone">&raquo;</span></a></p> 
                   </td>
                 </tr>
               </tfoot>
@@ -129,7 +129,7 @@
 
     <div id="mainContent" class="container">
       <h3>Technical Features for All Plans</h3>
-      <table class="table table-bordered"> 
+      <table id="technicalFeatures" class="table table-bordered"> 
 
         <tbody>
           <tr>
@@ -139,10 +139,10 @@
             <td class="span3"><i class="icon-ok"></i> ionCube Loaders v3.3.20</td>
           </tr>
           <tr>
-            <td class="span3"><i class="icon-ok"></i> cURL</td>
-            <td class="span3"><i class="icon-ok"></i> Cron Jobs</td>
-            <td class="span3"><i class="icon-ok"></i> GD</td>
-            <td class="span3"><i class="icon-ok"></i> Zend Optimiser v3.3.9</td>
+            <td><i class="icon-ok"></i> cURL</td>
+            <td><i class="icon-ok"></i> Cron Jobs</td>
+            <td><i class="icon-ok"></i> GD</td>
+            <td><i class="icon-ok"></i> Zend Optimiser v3.3.9</td>
           </tr>
         </tbody>
       </table>
